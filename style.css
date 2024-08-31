@@ -1,35 +1,36 @@
-.element {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profil img {
+    width: 500px;
+    border-radius: 50%;
+}
+
+.profil .rond {
+    border-radius: 70%;
+
+    display: flex;
+
+    border: 10px solid lightgreen;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.toto img {
     width: 50px;
 }
 
-.container_profil {
-    border-radius: 50%;
-    width: 320px;
-    height: 320px;
-    overflow: hidden;
-
+.toto {
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    border: 8px solid lightgreen;
-
-}
-
-.container_profil img {
-    width: 500px;
-}
-
-.container_name {
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    margin-top: 100px;
 }
