@@ -43,9 +43,12 @@
 
 .toto img {
     width: 50px;
+    border-radius: 20%;
+    margin-bottom: 40%;
 }
 
 .toto {
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
