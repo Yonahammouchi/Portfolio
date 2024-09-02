@@ -7,8 +7,39 @@
     font-family: "Playfair Display", serif;
 }
 
+.back {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image: radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 3px;
+}
+
+
+
 .profil img {
-    width: 500px;
+    width: 300px;
     border-radius: 50%;
 }
 
@@ -18,6 +49,10 @@
     display: flex;
 
     border: 10px solid lightgreen;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin-top: 60px;
 }
 
 .profil {
@@ -31,6 +66,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin-top: 20px;
 }
 
 .text h1 {
@@ -41,14 +78,30 @@
     width: 60%;
 }
 
-.toto img {
-    width: 50px;
-    border-radius: 20%;
-    margin-bottom: 40%;
+.toto a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 .toto {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.toto button {
+
+    width: 60px;
+    height: 60px;
+
+    cursor: pointer;
+    border: 3px solid lightgreen;
+    background-color: white;
+
+    border-radius: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
