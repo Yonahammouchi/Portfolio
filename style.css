@@ -26,7 +26,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 
 .navbar a {
@@ -35,8 +34,6 @@
     text-decoration-color: lightgreen;
     text-decoration-thickness: 3px;
 }
-
-
 
 .profil img {
     width: 300px;
